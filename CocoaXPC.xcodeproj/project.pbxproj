@@ -16,6 +16,7 @@
 		4F3B55BB29A3C51200372AB1 /* CocoaXPCFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B55BA29A3C51200372AB1 /* CocoaXPCFramework.m */; };
 		4F3B55BD29A3C51200372AB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B55BC29A3C51200372AB1 /* main.m */; };
 		4F3B55C229A3C51200372AB1 /* CocoaXPCFramework.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 4F3B55B629A3C51100372AB1 /* CocoaXPCFramework.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4FFC665829A3C9AE001C4421 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4FFC665729A3C9AE001C4421 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		4F3B55BE29A3C51200372AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F3B55BF29A3C51200372AB1 /* CocoaXPCFramework.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CocoaXPCFramework.entitlements; sourceTree = "<group>"; };
 		4F3B55C729A3C66400372AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FFC665729A3C9AE001C4421 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		4F3B558829A3C4EF00372AB1 = {
 			isa = PBXGroup;
 			children = (
+				4FFC665729A3C9AE001C4421 /* README.md */,
 				4F3B559329A3C4EF00372AB1 /* CocoaXPC */,
 				4F3B55B729A3C51100372AB1 /* CocoaXPCFramework */,
 				4F3B55AC29A3C50100372AB1 /* CocoaXPCHelper */,
@@ -256,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FFC665829A3C9AE001C4421 /* README.md in Resources */,
 				4F3B559B29A3C4F000372AB1 /* Assets.xcassets in Resources */,
 				4F3B559E29A3C4F000372AB1 /* Main.storyboard in Resources */,
 			);
