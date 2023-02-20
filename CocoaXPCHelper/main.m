@@ -6,11 +6,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HelperTool.h"
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+    HelperTool *helperTool = [HelperTool new];
+    [helperTool run];
     return 0;
 }

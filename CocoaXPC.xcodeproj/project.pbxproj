@@ -17,6 +17,7 @@
 		4F3B55BD29A3C51200372AB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B55BC29A3C51200372AB1 /* main.m */; };
 		4F3B55C229A3C51200372AB1 /* CocoaXPCFramework.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 4F3B55B629A3C51100372AB1 /* CocoaXPCFramework.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4FFC665829A3C9AE001C4421 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4FFC665729A3C9AE001C4421 /* README.md */; };
+		4FFC665B29A3CAEB001C4421 /* HelperTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC665A29A3CAEB001C4421 /* HelperTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,9 @@
 		4F3B55BF29A3C51200372AB1 /* CocoaXPCFramework.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CocoaXPCFramework.entitlements; sourceTree = "<group>"; };
 		4F3B55C729A3C66400372AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FFC665729A3C9AE001C4421 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4FFC665929A3CAEB001C4421 /* HelperTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelperTool.h; sourceTree = "<group>"; };
+		4FFC665A29A3CAEB001C4421 /* HelperTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelperTool.m; sourceTree = "<group>"; };
+		4FFC665D29A3CB5D001C4421 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				4FFC665729A3C9AE001C4421 /* README.md */,
+				4FFC665C29A3CB4D001C4421 /* Common */,
 				4F3B559329A3C4EF00372AB1 /* CocoaXPC */,
 				4F3B55B729A3C51100372AB1 /* CocoaXPCFramework */,
 				4F3B55AC29A3C50100372AB1 /* CocoaXPCHelper */,
@@ -141,6 +146,8 @@
 			children = (
 				4F3B55AD29A3C50100372AB1 /* main.m */,
 				4F3B55C729A3C66400372AB1 /* Info.plist */,
+				4FFC665929A3CAEB001C4421 /* HelperTool.h */,
+				4FFC665A29A3CAEB001C4421 /* HelperTool.m */,
 			);
 			path = CocoaXPCHelper;
 			sourceTree = "<group>";
@@ -156,6 +163,14 @@
 				4F3B55BF29A3C51200372AB1 /* CocoaXPCFramework.entitlements */,
 			);
 			path = CocoaXPCFramework;
+			sourceTree = "<group>";
+		};
+		4FFC665C29A3CB4D001C4421 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4FFC665D29A3CB5D001C4421 /* Common.h */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F3B55AE29A3C50100372AB1 /* main.m in Sources */,
+				4FFC665B29A3CAEB001C4421 /* HelperTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
