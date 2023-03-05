@@ -2,13 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>SMPrivilegedExecutables</key>
-	<dict>
-		<key>com.pookjw.CocoaXPC.Helper</key>
-		<string>anchor apple generic and identifier "com.pookjw.CocoaXPC.Helper"</string>
-	</dict>
 	<key>XPCService</key>
 	<dict>
+		<key>JoinExistingSession</key>
+		<true/>
 		<key>ServiceType</key>
 		<string>Application</string>
 	</dict>

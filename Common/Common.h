@@ -5,8 +5,9 @@
 //  Created by Jinwoo Kim on 2/21/23.
 //
 
-#ifndef Common_h
-#define Common_h
+#import <Foundation/Foundation.h>
 
-
-#endif /* Common_h */
+@protocol HelperToolProtocol <NSObject>
+- (void)connectWithEndpointReply:(void (^)(NSXPCListenerEndpoint *))reply;
+- (void)getNumberWithReply:(void (^)(NSNumber *))reply;
+@end

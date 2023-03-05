@@ -4,10 +4,5 @@
 <dict>
 	<key>CFBundleIdentifier</key>
 	<string>com.pookjw.CocoaXPC.Helper</string>
-	<key>SMAuthorizedClients</key>
-	<array>
-		<string>anchor apple generic and identifier &quot;com.pookjw.CocoaXPCFramework&quot;</string>
-		<string>anchor apple generic and identifier &quot;com.pookjw.CocoaXPC&quot;</string>
-	</array>
 </dict>
 </plist>

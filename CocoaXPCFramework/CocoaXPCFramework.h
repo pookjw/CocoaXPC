@@ -6,8 +6,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CocoaXPCFrameworkProtocol.h"
 
-// This object implements the protocol which we have defined. It provides the actual behavior for the service. It is 'exported' by the service to make it available to the process hosting the service over an NSXPCConnection.
-@interface CocoaXPCFramework : NSObject <CocoaXPCFrameworkProtocol>
+@protocol CocoaXPCFrameworkProtocol <NSObject>
+- (void)conntectWithEndpointReply:(void (^)(NSXPCListenerEndpoint *))reply;
+- (void)getNumberWithReply:(void (^)(NSNumber *))reply;
+@end
+
+@interface CocoaXPCFramework : NSObject
+- (void)run;
 @end
