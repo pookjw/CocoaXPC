@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F863B9829B4D305001D49B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F863B9729B4D305001D49B4 /* AppDelegate.m */; };
+		4F863B9B29B4D305001D49B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F863B9A29B4D305001D49B4 /* ViewController.m */; };
+		4F863B9D29B4D306001D49B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F863B9C29B4D306001D49B4 /* Assets.xcassets */; };
+		4F863BA029B4D306001D49B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F863B9E29B4D306001D49B4 /* Main.storyboard */; };
+		4F863BA229B4D306001D49B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F863BA129B4D306001D49B4 /* main.m */; };
+		4F863BB429B4D34A001D49B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F863BB329B4D34A001D49B4 /* main.m */; };
+		4F863BB929B4D34A001D49B4 /* CocoaXPCService.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 4F863BAD29B4D34A001D49B4 /* CocoaXPCService.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4F863BC529B4D35F001D49B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F863BC429B4D35F001D49B4 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F863BB729B4D34A001D49B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F863B8B29B4D305001D49B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F863BAC29B4D34A001D49B4;
+			remoteInfo = CocoaXPCService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F863BBD29B4D34A001D49B4 /* Embed XPC Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
+			files = (
+				4F863BB929B4D34A001D49B4 /* CocoaXPCService.xpc in Embed XPC Services */,
+			);
+			name = "Embed XPC Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F863BC029B4D35F001D49B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F863B9329B4D305001D49B4 /* CocoaXPC_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaXPC_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F863B9629B4D305001D49B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F863B9729B4D305001D49B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F863B9929B4D305001D49B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F863B9A29B4D305001D49B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F863B9C29B4D306001D49B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F863B9F29B4D306001D49B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F863BA129B4D306001D49B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F863BA329B4D306001D49B4 /* CocoaXPC_2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CocoaXPC_2.entitlements; sourceTree = "<group>"; };
+		4F863BAD29B4D34A001D49B4 /* CocoaXPCService.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = CocoaXPCService.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F863BB329B4D34A001D49B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F863BB529B4D34A001D49B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F863BB629B4D34A001D49B4 /* CocoaXPCService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CocoaXPCService.entitlements; sourceTree = "<group>"; };
+		4F863BC229B4D35F001D49B4 /* CocoaXPCHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CocoaXPCHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F863BC429B4D35F001D49B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F863BC929B4ED93001D49B4 /* CocoaXPCHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CocoaXPCHelper.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F863B9029B4D305001D49B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F863BAA29B4D34A001D49B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F863BBF29B4D35F001D49B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F863B8A29B4D305001D49B4 = {
+			isa = PBXGroup;
+			children = (
+				4F863B9529B4D305001D49B4 /* CocoaXPC_2 */,
+				4F863BAE29B4D34A001D49B4 /* CocoaXPCService */,
+				4F863BC329B4D35F001D49B4 /* CocoaXPCHelper */,
+				4F863B9429B4D305001D49B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F863B9429B4D305001D49B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F863B9329B4D305001D49B4 /* CocoaXPC_2.app */,
+				4F863BAD29B4D34A001D49B4 /* CocoaXPCService.xpc */,
+				4F863BC229B4D35F001D49B4 /* CocoaXPCHelper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F863B9529B4D305001D49B4 /* CocoaXPC_2 */ = {
+			isa = PBXGroup;
+			children = (
+				4F863B9629B4D305001D49B4 /* AppDelegate.h */,
+				4F863B9729B4D305001D49B4 /* AppDelegate.m */,
+				4F863B9929B4D305001D49B4 /* ViewController.h */,
+				4F863B9A29B4D305001D49B4 /* ViewController.m */,
+				4F863B9C29B4D306001D49B4 /* Assets.xcassets */,
+				4F863B9E29B4D306001D49B4 /* Main.storyboard */,
+				4F863BA129B4D306001D49B4 /* main.m */,
+				4F863BA329B4D306001D49B4 /* CocoaXPC_2.entitlements */,
+			);
+			path = CocoaXPC_2;
+			sourceTree = "<group>";
+		};
+		4F863BAE29B4D34A001D49B4 /* CocoaXPCService */ = {
+			isa = PBXGroup;
+			children = (
+				4F863BB329B4D34A001D49B4 /* main.m */,
+				4F863BB529B4D34A001D49B4 /* Info.plist */,
+				4F863BB629B4D34A001D49B4 /* CocoaXPCService.entitlements */,
+			);
+			path = CocoaXPCService;
+			sourceTree = "<group>";
+		};
+		4F863BC329B4D35F001D49B4 /* CocoaXPCHelper */ = {
+			isa = PBXGroup;
+			children = (
+				4F863BC929B4ED93001D49B4 /* CocoaXPCHelper.entitlements */,
+				4F863BC429B4D35F001D49B4 /* main.m */,
+			);
+			path = CocoaXPCHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F863B9229B4D305001D49B4 /* CocoaXPC_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F863BA629B4D306001D49B4 /* Build configuration list for PBXNativeTarget "CocoaXPC_2" */;
+			buildPhases = (
+				4F863B8F29B4D305001D49B4 /* Sources */,
+				4F863B9029B4D305001D49B4 /* Frameworks */,
+				4F863B9129B4D305001D49B4 /* Resources */,
+				4F863BBD29B4D34A001D49B4 /* Embed XPC Services */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F863BB829B4D34A001D49B4 /* PBXTargetDependency */,
+			);
+			name = CocoaXPC_2;
+			productName = CocoaXPC_2;
+			productReference = 4F863B9329B4D305001D49B4 /* CocoaXPC_2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F863BAC29B4D34A001D49B4 /* CocoaXPCService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F863BBA29B4D34A001D49B4 /* Build configuration list for PBXNativeTarget "CocoaXPCService" */;
+			buildPhases = (
+				4F863BA929B4D34A001D49B4 /* Sources */,
+				4F863BAA29B4D34A001D49B4 /* Frameworks */,
+				4F863BAB29B4D34A001D49B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaXPCService;
+			productName = CocoaXPCService;
+			productReference = 4F863BAD29B4D34A001D49B4 /* CocoaXPCService.xpc */;
+			productType = "com.apple.product-type.xpc-service";
+		};
+		4F863BC129B4D35F001D49B4 /* CocoaXPCHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F863BC629B4D35F001D49B4 /* Build configuration list for PBXNativeTarget "CocoaXPCHelper" */;
+			buildPhases = (
+				4F863BBE29B4D35F001D49B4 /* Sources */,
+				4F863BBF29B4D35F001D49B4 /* Frameworks */,
+				4F863BC029B4D35F001D49B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaXPCHelper;
+			productName = CocoaXPCHelper;
+			productReference = 4F863BC229B4D35F001D49B4 /* CocoaXPCHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F863B8B29B4D305001D49B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4F863B9229B4D305001D49B4 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					4F863BAC29B4D34A001D49B4 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					4F863BC129B4D35F001D49B4 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 4F863B8E29B4D305001D49B4 /* Build configuration list for PBXProject "CocoaXPC_2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F863B8A29B4D305001D49B4;
+			productRefGroup = 4F863B9429B4D305001D49B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F863B9229B4D305001D49B4 /* CocoaXPC_2 */,
+				4F863BAC29B4D34A001D49B4 /* CocoaXPCService */,
+				4F863BC129B4D35F001D49B4 /* CocoaXPCHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F863B9129B4D305001D49B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F863B9D29B4D306001D49B4 /* Assets.xcassets in Resources */,
+				4F863BA029B4D306001D49B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F863BAB29B4D34A001D49B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F863B8F29B4D305001D49B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F863B9B29B4D305001D49B4 /* ViewController.m in Sources */,
+				4F863BA229B4D306001D49B4 /* main.m in Sources */,
+				4F863B9829B4D305001D49B4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F863BA929B4D34A001D49B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F863BB429B4D34A001D49B4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F863BBE29B4D35F001D49B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F863BC529B4D35F001D49B4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F863BB829B4D34A001D49B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F863BAC29B4D34A001D49B4 /* CocoaXPCService */;
+			targetProxy = 4F863BB729B4D34A001D49B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F863B9E29B4D306001D49B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F863B9F29B4D306001D49B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F863BA429B4D306001D49B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F863BA529B4D306001D49B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4F863BA729B4D306001D49B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CocoaXPC_2/CocoaXPC_2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P53D29U9LJ;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pookjw.CocoaXPC-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		4F863BA829B4D306001D49B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CocoaXPC_2/CocoaXPC_2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P53D29U9LJ;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pookjw.CocoaXPC-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		4F863BBB29B4D34A001D49B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_ENTITLEMENTS = CocoaXPCService/CocoaXPCService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P53D29U9LJ;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CocoaXPCService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CocoaXPCService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.CocoaXPC.Service;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		4F863BBC29B4D34A001D49B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_ENTITLEMENTS = CocoaXPCService/CocoaXPCService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P53D29U9LJ;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CocoaXPCService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CocoaXPCService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.CocoaXPC.Service;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		4F863BC729B4D35F001D49B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_ENTITLEMENTS = CocoaXPCHelper/CocoaXPCHelper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P53D29U9LJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.CocoaXPC.Helper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F863BC829B4D35F001D49B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_ENTITLEMENTS = CocoaXPCHelper/CocoaXPCHelper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P53D29U9LJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.CocoaXPC.Helper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F863B8E29B4D305001D49B4 /* Build configuration list for PBXProject "CocoaXPC_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F863BA429B4D306001D49B4 /* Debug */,
+				4F863BA529B4D306001D49B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F863BA629B4D306001D49B4 /* Build configuration list for PBXNativeTarget "CocoaXPC_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F863BA729B4D306001D49B4 /* Debug */,
+				4F863BA829B4D306001D49B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F863BBA29B4D34A001D49B4 /* Build configuration list for PBXNativeTarget "CocoaXPCService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F863BBB29B4D34A001D49B4 /* Debug */,
+				4F863BBC29B4D34A001D49B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F863BC629B4D35F001D49B4 /* Build configuration list for PBXNativeTarget "CocoaXPCHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F863BC729B4D35F001D49B4 /* Debug */,
+				4F863BC829B4D35F001D49B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F863B8B29B4D305001D49B4 /* Project object */;
+}
