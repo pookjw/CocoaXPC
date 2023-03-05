@@ -25,8 +25,6 @@
     xpc_dictionary_set_string(dictionary, "test", "test 1");
     
     xpc_connection_send_message(connection, dictionary);
-//    xpc_object_t string = xpc_connection_send_message_with_reply_sync(connection, test);
-//    NSLog(@"%s", xpc_string_get_string_ptr(string));
     self.connection = connection;
 }
 
