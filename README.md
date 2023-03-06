@@ -6,6 +6,8 @@ https://docs.huihoo.com/apple/wwdc/2011/session_206__introducing_xpc.pdf
 
 https://download.developer.apple.com/videos/wwdc_2011__hd/session_206__introducing_xpc.m4v
 
+https://www.objc.io/issues/14-mac/xpc/
+
 sudo chown root:wheel
 
 sudo chmod 600
