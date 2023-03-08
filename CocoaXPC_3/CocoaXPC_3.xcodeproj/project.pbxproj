@@ -7,39 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F51D0B129B8E9E3008B4D32 /* CocoaXPCService.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 4F863BAD29B4D34A001D49B4 /* CocoaXPCService.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4F863B9829B4D305001D49B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F863B9729B4D305001D49B4 /* AppDelegate.m */; };
-		4F863B9B29B4D305001D49B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F863B9A29B4D305001D49B4 /* ViewController.m */; };
-		4F863B9D29B4D306001D49B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F863B9C29B4D306001D49B4 /* Assets.xcassets */; };
-		4F863BA029B4D306001D49B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F863B9E29B4D306001D49B4 /* Main.storyboard */; };
-		4F863BA229B4D306001D49B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F863BA129B4D306001D49B4 /* main.m */; };
-		4F863BB429B4D34A001D49B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F863BB329B4D34A001D49B4 /* main.m */; };
-		4F863BC529B4D35F001D49B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F863BC429B4D35F001D49B4 /* main.m */; };
+		4F51D0B229B8E9ED008B4D32 /* CocoaXPCService.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 4F7CBBAF29B8B2B500313EC0 /* CocoaXPCService.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4F7CBB9A29B8B29900313EC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CBB9929B8B29900313EC0 /* AppDelegate.m */; };
+		4F7CBB9D29B8B29900313EC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CBB9C29B8B29900313EC0 /* ViewController.m */; };
+		4F7CBB9F29B8B29A00313EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7CBB9E29B8B29A00313EC0 /* Assets.xcassets */; };
+		4F7CBBA229B8B29A00313EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F7CBBA029B8B29A00313EC0 /* Main.storyboard */; };
+		4F7CBBA429B8B29A00313EC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CBBA329B8B29A00313EC0 /* main.m */; };
+		4F7CBBB629B8B2B500313EC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CBBB529B8B2B500313EC0 /* main.m */; };
+		4F7CBBC729B8B2C100313EC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CBBC629B8B2C100313EC0 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4F863BB729B4D34A001D49B4 /* PBXContainerItemProxy */ = {
+		4F51D0AD29B8E9AF008B4D32 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4F863B8B29B4D305001D49B4 /* Project object */;
+			containerPortal = 4F7CBB8D29B8B29900313EC0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4F863BAC29B4D34A001D49B4;
+			remoteGlobalIDString = 4F7CBBAE29B8B2B500313EC0;
 			remoteInfo = CocoaXPCService;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4F863BBD29B4D34A001D49B4 /* Embed XPC Services */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
-			dstSubfolderSpec = 16;
-			files = (
-				4F51D0B129B8E9E3008B4D32 /* CocoaXPCService.xpc in Embed XPC Services */,
-			);
-			name = "Embed XPC Services";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4F863BC029B4D35F001D49B4 /* CopyFiles */ = {
+        4F7CBBCF29B8D8C800313EC0 /* Embed XPC Services */ = {
+            isa = PBXCopyFilesBuildPhase;
+            buildActionMask = 2147483647;
+            dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+            dstSubfolderSpec = 16;
+            files = (
+                4F51D0B229B8E9ED008B4D32 /* CocoaXPCService.xpc in Embed XPC Services */,
+            );
+            name = "Embed XPC Services";
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+		4F7CBBC229B8B2C100313EC0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -51,40 +51,39 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4F863B9329B4D305001D49B4 /* CocoaXPC_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaXPC_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F863B9629B4D305001D49B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4F863B9729B4D305001D49B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4F863B9929B4D305001D49B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4F863B9A29B4D305001D49B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4F863B9C29B4D306001D49B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4F863B9F29B4D306001D49B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4F863BA129B4D306001D49B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4F863BA329B4D306001D49B4 /* CocoaXPC_2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CocoaXPC_2.entitlements; sourceTree = "<group>"; };
-		4F863BAD29B4D34A001D49B4 /* CocoaXPCService.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = CocoaXPCService.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F863BB329B4D34A001D49B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4F863BB529B4D34A001D49B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F863BB629B4D34A001D49B4 /* CocoaXPCService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CocoaXPCService.entitlements; sourceTree = "<group>"; };
-		4F863BC229B4D35F001D49B4 /* CocoaXPCHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CocoaXPCHelper; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F863BC429B4D35F001D49B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4F863BC929B4ED93001D49B4 /* CocoaXPCHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CocoaXPCHelper.entitlements; sourceTree = "<group>"; };
+		4F7CBB9529B8B29900313EC0 /* CocoaXPC_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaXPC_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7CBB9829B8B29900313EC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F7CBB9929B8B29900313EC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F7CBB9B29B8B29900313EC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F7CBB9C29B8B29900313EC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F7CBB9E29B8B29A00313EC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F7CBBA129B8B29A00313EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F7CBBA329B8B29A00313EC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F7CBBA529B8B29A00313EC0 /* CocoaXPC_3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CocoaXPC_3.entitlements; sourceTree = "<group>"; };
+		4F7CBBAF29B8B2B500313EC0 /* CocoaXPCService.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = CocoaXPCService.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7CBBB529B8B2B500313EC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F7CBBB729B8B2B500313EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F7CBBB829B8B2B500313EC0 /* CocoaXPCService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CocoaXPCService.entitlements; sourceTree = "<group>"; };
+		4F7CBBC429B8B2C100313EC0 /* CocoaXPCHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CocoaXPCHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7CBBC629B8B2C100313EC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4F863B9029B4D305001D49B4 /* Frameworks */ = {
+		4F7CBB9229B8B29900313EC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F863BAA29B4D34A001D49B4 /* Frameworks */ = {
+		4F7CBBAC29B8B2B500313EC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F863BBF29B4D35F001D49B4 /* Frameworks */ = {
+		4F7CBBC129B8B2C100313EC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,89 +93,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F863B8A29B4D305001D49B4 = {
+		4F7CBB8C29B8B29900313EC0 = {
 			isa = PBXGroup;
 			children = (
-				4F863B9529B4D305001D49B4 /* CocoaXPC_2 */,
-				4F863BAE29B4D34A001D49B4 /* CocoaXPCService */,
-				4F863BC329B4D35F001D49B4 /* CocoaXPCHelper */,
-				4F863B9429B4D305001D49B4 /* Products */,
+				4F7CBB9729B8B29900313EC0 /* CocoaXPC_3 */,
+				4F7CBBB029B8B2B500313EC0 /* CocoaXPCService */,
+				4F7CBBC529B8B2C100313EC0 /* CocoaXPCHelper */,
+				4F7CBB9629B8B29900313EC0 /* Products */,
+				4F7CBBCB29B8D8C800313EC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		4F863B9429B4D305001D49B4 /* Products */ = {
+		4F7CBB9629B8B29900313EC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F863B9329B4D305001D49B4 /* CocoaXPC_2.app */,
-				4F863BAD29B4D34A001D49B4 /* CocoaXPCService.xpc */,
-				4F863BC229B4D35F001D49B4 /* CocoaXPCHelper */,
+				4F7CBB9529B8B29900313EC0 /* CocoaXPC_3.app */,
+				4F7CBBAF29B8B2B500313EC0 /* CocoaXPCService.xpc */,
+				4F7CBBC429B8B2C100313EC0 /* CocoaXPCHelper */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4F863B9529B4D305001D49B4 /* CocoaXPC_2 */ = {
+		4F7CBB9729B8B29900313EC0 /* CocoaXPC_3 */ = {
 			isa = PBXGroup;
 			children = (
-				4F863B9629B4D305001D49B4 /* AppDelegate.h */,
-				4F863B9729B4D305001D49B4 /* AppDelegate.m */,
-				4F863B9929B4D305001D49B4 /* ViewController.h */,
-				4F863B9A29B4D305001D49B4 /* ViewController.m */,
-				4F863B9C29B4D306001D49B4 /* Assets.xcassets */,
-				4F863B9E29B4D306001D49B4 /* Main.storyboard */,
-				4F863BA129B4D306001D49B4 /* main.m */,
-				4F863BA329B4D306001D49B4 /* CocoaXPC_2.entitlements */,
+				4F7CBB9829B8B29900313EC0 /* AppDelegate.h */,
+				4F7CBB9929B8B29900313EC0 /* AppDelegate.m */,
+				4F7CBB9B29B8B29900313EC0 /* ViewController.h */,
+				4F7CBB9C29B8B29900313EC0 /* ViewController.m */,
+				4F7CBB9E29B8B29A00313EC0 /* Assets.xcassets */,
+				4F7CBBA029B8B29A00313EC0 /* Main.storyboard */,
+				4F7CBBA329B8B29A00313EC0 /* main.m */,
+				4F7CBBA529B8B29A00313EC0 /* CocoaXPC_3.entitlements */,
 			);
-			path = CocoaXPC_2;
+			path = CocoaXPC_3;
 			sourceTree = "<group>";
 		};
-		4F863BAE29B4D34A001D49B4 /* CocoaXPCService */ = {
+		4F7CBBB029B8B2B500313EC0 /* CocoaXPCService */ = {
 			isa = PBXGroup;
 			children = (
-				4F863BB329B4D34A001D49B4 /* main.m */,
-				4F863BB529B4D34A001D49B4 /* Info.plist */,
-				4F863BB629B4D34A001D49B4 /* CocoaXPCService.entitlements */,
+				4F7CBBB529B8B2B500313EC0 /* main.m */,
+				4F7CBBB729B8B2B500313EC0 /* Info.plist */,
+				4F7CBBB829B8B2B500313EC0 /* CocoaXPCService.entitlements */,
 			);
 			path = CocoaXPCService;
 			sourceTree = "<group>";
 		};
-		4F863BC329B4D35F001D49B4 /* CocoaXPCHelper */ = {
+		4F7CBBC529B8B2C100313EC0 /* CocoaXPCHelper */ = {
 			isa = PBXGroup;
 			children = (
-				4F863BC929B4ED93001D49B4 /* CocoaXPCHelper.entitlements */,
-				4F863BC429B4D35F001D49B4 /* main.m */,
+				4F7CBBC629B8B2C100313EC0 /* main.m */,
 			);
 			path = CocoaXPCHelper;
+			sourceTree = "<group>";
+		};
+		4F7CBBCB29B8D8C800313EC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F863B9229B4D305001D49B4 /* CocoaXPC_2 */ = {
+		4F7CBB9429B8B29900313EC0 /* CocoaXPC_3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F863BA629B4D306001D49B4 /* Build configuration list for PBXNativeTarget "CocoaXPC_2" */;
+			buildConfigurationList = 4F7CBBA829B8B29A00313EC0 /* Build configuration list for PBXNativeTarget "CocoaXPC_3" */;
 			buildPhases = (
-				4F863B8F29B4D305001D49B4 /* Sources */,
-				4F863B9029B4D305001D49B4 /* Frameworks */,
-				4F863B9129B4D305001D49B4 /* Resources */,
-				4F863BBD29B4D34A001D49B4 /* Embed XPC Services */,
+				4F7CBB9129B8B29900313EC0 /* Sources */,
+				4F7CBB9229B8B29900313EC0 /* Frameworks */,
+				4F7CBB9329B8B29900313EC0 /* Resources */,
+				4F7CBBCF29B8D8C800313EC0 /* Embed XPC Services */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4F863BB829B4D34A001D49B4 /* PBXTargetDependency */,
+				4F51D0AE29B8E9AF008B4D32 /* PBXTargetDependency */,
 			);
-			name = CocoaXPC_2;
-			productName = CocoaXPC_2;
-			productReference = 4F863B9329B4D305001D49B4 /* CocoaXPC_2.app */;
+			name = CocoaXPC_3;
+			productName = CocoaXPC_3;
+			productReference = 4F7CBB9529B8B29900313EC0 /* CocoaXPC_3.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4F863BAC29B4D34A001D49B4 /* CocoaXPCService */ = {
+		4F7CBBAE29B8B2B500313EC0 /* CocoaXPCService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F863BBA29B4D34A001D49B4 /* Build configuration list for PBXNativeTarget "CocoaXPCService" */;
+			buildConfigurationList = 4F7CBBBC29B8B2B500313EC0 /* Build configuration list for PBXNativeTarget "CocoaXPCService" */;
 			buildPhases = (
-				4F863BA929B4D34A001D49B4 /* Sources */,
-				4F863BAA29B4D34A001D49B4 /* Frameworks */,
-				4F863BAB29B4D34A001D49B4 /* Resources */,
+				4F7CBBAB29B8B2B500313EC0 /* Sources */,
+				4F7CBBAC29B8B2B500313EC0 /* Frameworks */,
+				4F7CBBAD29B8B2B500313EC0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -184,16 +190,16 @@
 			);
 			name = CocoaXPCService;
 			productName = CocoaXPCService;
-			productReference = 4F863BAD29B4D34A001D49B4 /* CocoaXPCService.xpc */;
+			productReference = 4F7CBBAF29B8B2B500313EC0 /* CocoaXPCService.xpc */;
 			productType = "com.apple.product-type.xpc-service";
 		};
-		4F863BC129B4D35F001D49B4 /* CocoaXPCHelper */ = {
+		4F7CBBC329B8B2C100313EC0 /* CocoaXPCHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F863BC629B4D35F001D49B4 /* Build configuration list for PBXNativeTarget "CocoaXPCHelper" */;
+			buildConfigurationList = 4F7CBBC829B8B2C100313EC0 /* Build configuration list for PBXNativeTarget "CocoaXPCHelper" */;
 			buildPhases = (
-				4F863BBE29B4D35F001D49B4 /* Sources */,
-				4F863BBF29B4D35F001D49B4 /* Frameworks */,
-				4F863BC029B4D35F001D49B4 /* CopyFiles */,
+				4F7CBBC029B8B2C100313EC0 /* Sources */,
+				4F7CBBC129B8B2C100313EC0 /* Frameworks */,
+				4F7CBBC229B8B2C100313EC0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -201,30 +207,30 @@
 			);
 			name = CocoaXPCHelper;
 			productName = CocoaXPCHelper;
-			productReference = 4F863BC229B4D35F001D49B4 /* CocoaXPCHelper */;
+			productReference = 4F7CBBC429B8B2C100313EC0 /* CocoaXPCHelper */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4F863B8B29B4D305001D49B4 /* Project object */ = {
+		4F7CBB8D29B8B29900313EC0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					4F863B9229B4D305001D49B4 = {
+					4F7CBB9429B8B29900313EC0 = {
 						CreatedOnToolsVersion = 14.3;
 					};
-					4F863BAC29B4D34A001D49B4 = {
+					4F7CBBAE29B8B2B500313EC0 = {
 						CreatedOnToolsVersion = 14.3;
 					};
-					4F863BC129B4D35F001D49B4 = {
+					4F7CBBC329B8B2C100313EC0 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 4F863B8E29B4D305001D49B4 /* Build configuration list for PBXProject "CocoaXPC_2" */;
+			buildConfigurationList = 4F7CBB9029B8B29900313EC0 /* Build configuration list for PBXProject "CocoaXPC_3" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -232,29 +238,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 4F863B8A29B4D305001D49B4;
-			productRefGroup = 4F863B9429B4D305001D49B4 /* Products */;
+			mainGroup = 4F7CBB8C29B8B29900313EC0;
+			productRefGroup = 4F7CBB9629B8B29900313EC0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F863B9229B4D305001D49B4 /* CocoaXPC_2 */,
-				4F863BAC29B4D34A001D49B4 /* CocoaXPCService */,
-				4F863BC129B4D35F001D49B4 /* CocoaXPCHelper */,
+				4F7CBB9429B8B29900313EC0 /* CocoaXPC_3 */,
+				4F7CBBAE29B8B2B500313EC0 /* CocoaXPCService */,
+				4F7CBBC329B8B2C100313EC0 /* CocoaXPCHelper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4F863B9129B4D305001D49B4 /* Resources */ = {
+		4F7CBB9329B8B29900313EC0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F863B9D29B4D306001D49B4 /* Assets.xcassets in Resources */,
-				4F863BA029B4D306001D49B4 /* Main.storyboard in Resources */,
+				4F7CBB9F29B8B29A00313EC0 /* Assets.xcassets in Resources */,
+				4F7CBBA229B8B29A00313EC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F863BAB29B4D34A001D49B4 /* Resources */ = {
+		4F7CBBAD29B8B2B500313EC0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,47 +270,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4F863B8F29B4D305001D49B4 /* Sources */ = {
+		4F7CBB9129B8B29900313EC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F863B9B29B4D305001D49B4 /* ViewController.m in Sources */,
-				4F863BA229B4D306001D49B4 /* main.m in Sources */,
-				4F863B9829B4D305001D49B4 /* AppDelegate.m in Sources */,
+				4F7CBB9D29B8B29900313EC0 /* ViewController.m in Sources */,
+				4F7CBBA429B8B29A00313EC0 /* main.m in Sources */,
+				4F7CBB9A29B8B29900313EC0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F863BA929B4D34A001D49B4 /* Sources */ = {
+		4F7CBBAB29B8B2B500313EC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F863BB429B4D34A001D49B4 /* main.m in Sources */,
+				4F7CBBB629B8B2B500313EC0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F863BBE29B4D35F001D49B4 /* Sources */ = {
+		4F7CBBC029B8B2C100313EC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F863BC529B4D35F001D49B4 /* main.m in Sources */,
+				4F7CBBC729B8B2C100313EC0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4F863BB829B4D34A001D49B4 /* PBXTargetDependency */ = {
+		4F51D0AE29B8E9AF008B4D32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F863BAC29B4D34A001D49B4 /* CocoaXPCService */;
-			targetProxy = 4F863BB729B4D34A001D49B4 /* PBXContainerItemProxy */;
+			target = 4F7CBBAE29B8B2B500313EC0 /* CocoaXPCService */;
+			targetProxy = 4F51D0AD29B8E9AF008B4D32 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4F863B9E29B4D306001D49B4 /* Main.storyboard */ = {
+		4F7CBBA029B8B29A00313EC0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4F863B9F29B4D306001D49B4 /* Base */,
+				4F7CBBA129B8B29A00313EC0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +318,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4F863BA429B4D306001D49B4 /* Debug */ = {
+		4F7CBBA629B8B29A00313EC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -362,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -370,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		4F863BA529B4D306001D49B4 /* Release */ = {
+		4F7CBBA729B8B29A00313EC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -414,19 +420,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		4F863BA729B4D306001D49B4 /* Debug */ = {
+		4F7CBBA929B8B29A00313EC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CocoaXPC_2/CocoaXPC_2.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CocoaXPC_3/CocoaXPC_3.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -441,18 +447,18 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pookjw.CocoaXPC-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pookjw.CocoaXPC-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Debug;
 		};
-		4F863BA829B4D306001D49B4 /* Release */ = {
+		4F7CBBAA29B8B29A00313EC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CocoaXPC_2/CocoaXPC_2.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CocoaXPC_3/CocoaXPC_3.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -467,16 +473,15 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pookjw.CocoaXPC-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pookjw.CocoaXPC-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Release;
 		};
-		4F863BBB29B4D34A001D49B4 /* Debug */ = {
+		4F7CBBBD29B8B2B500313EC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_ENTITLEMENTS = CocoaXPCService/CocoaXPCService.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -495,10 +500,9 @@
 			};
 			name = Debug;
 		};
-		4F863BBC29B4D34A001D49B4 /* Release */ = {
+		4F7CBBBE29B8B2B500313EC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_ENTITLEMENTS = CocoaXPCService/CocoaXPCService.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -517,11 +521,9 @@
 			};
 			name = Release;
 		};
-		4F863BC729B4D35F001D49B4 /* Debug */ = {
+		4F7CBBC929B8B2C100313EC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CODE_SIGN_ENTITLEMENTS = CocoaXPCHelper/CocoaXPCHelper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P53D29U9LJ;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -530,11 +532,9 @@
 			};
 			name = Debug;
 		};
-		4F863BC829B4D35F001D49B4 /* Release */ = {
+		4F7CBBCA29B8B2C100313EC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
-				CODE_SIGN_ENTITLEMENTS = CocoaXPCHelper/CocoaXPCHelper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P53D29U9LJ;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -546,43 +546,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F863B8E29B4D305001D49B4 /* Build configuration list for PBXProject "CocoaXPC_2" */ = {
+		4F7CBB9029B8B29900313EC0 /* Build configuration list for PBXProject "CocoaXPC_3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F863BA429B4D306001D49B4 /* Debug */,
-				4F863BA529B4D306001D49B4 /* Release */,
+				4F7CBBA629B8B29A00313EC0 /* Debug */,
+				4F7CBBA729B8B29A00313EC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F863BA629B4D306001D49B4 /* Build configuration list for PBXNativeTarget "CocoaXPC_2" */ = {
+		4F7CBBA829B8B29A00313EC0 /* Build configuration list for PBXNativeTarget "CocoaXPC_3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F863BA729B4D306001D49B4 /* Debug */,
-				4F863BA829B4D306001D49B4 /* Release */,
+				4F7CBBA929B8B29A00313EC0 /* Debug */,
+				4F7CBBAA29B8B29A00313EC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F863BBA29B4D34A001D49B4 /* Build configuration list for PBXNativeTarget "CocoaXPCService" */ = {
+		4F7CBBBC29B8B2B500313EC0 /* Build configuration list for PBXNativeTarget "CocoaXPCService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F863BBB29B4D34A001D49B4 /* Debug */,
-				4F863BBC29B4D34A001D49B4 /* Release */,
+				4F7CBBBD29B8B2B500313EC0 /* Debug */,
+				4F7CBBBE29B8B2B500313EC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F863BC629B4D35F001D49B4 /* Build configuration list for PBXNativeTarget "CocoaXPCHelper" */ = {
+		4F7CBBC829B8B2C100313EC0 /* Build configuration list for PBXNativeTarget "CocoaXPCHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F863BC729B4D35F001D49B4 /* Debug */,
-				4F863BC829B4D35F001D49B4 /* Release */,
+				4F7CBBC929B8B2C100313EC0 /* Debug */,
+				4F7CBBCA29B8B2C100313EC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4F863B8B29B4D305001D49B4 /* Project object */;
+	rootObject = 4F7CBB8D29B8B29900313EC0 /* Project object */;
 }

@@ -12,6 +12,8 @@
 	<true/>
 	<key>Program</key>
 	<string>/Users/pookjw/Desktop/CocoaXPCHelper</string>
+	<key>WaitForDebugger</key>
+	<true/>
 	<key>MachServices</key>
 	<dict>
 		<key>com.pookjw.CocoaXPC.Helper</key>
