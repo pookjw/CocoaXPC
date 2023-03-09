@@ -9,7 +9,7 @@
 #import <xpc/xpc.h>
 
 @interface AppDelegate ()
-@property (strong) xpc_object_t connection;
+@property (strong) xpc_connection_t connection;
 @end
 
 @implementation AppDelegate
