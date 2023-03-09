@@ -12,6 +12,8 @@ https://rderik.com/blog/xpc-services-on-macos-apps-using-swift/
 
 https://rderik.com/blog/creating-a-launch-agent-that-provides-an-xpc-service-on-macos/
 
+https://github.com/insidegui/TextTransformer
+
 sudo chown root:wheel
 
 sudo chmod 600
