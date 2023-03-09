@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F51D0B229B8E9ED008B4D32 /* CocoaXPCService.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 4F7CBBAF29B8B2B500313EC0 /* CocoaXPCService.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4F7CBB9A29B8B29900313EC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CBB9929B8B29900313EC0 /* AppDelegate.m */; };
 		4F7CBB9D29B8B29900313EC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CBB9C29B8B29900313EC0 /* ViewController.m */; };
 		4F7CBB9F29B8B29A00313EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7CBB9E29B8B29A00313EC0 /* Assets.xcassets */; };
@@ -15,10 +14,11 @@
 		4F7CBBA429B8B29A00313EC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CBBA329B8B29A00313EC0 /* main.m */; };
 		4F7CBBB629B8B2B500313EC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CBBB529B8B2B500313EC0 /* main.m */; };
 		4F7CBBC729B8B2C100313EC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CBBC629B8B2C100313EC0 /* main.m */; };
+		4FF9A7C229BA397600D6F9C7 /* CocoaXPCService.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 4F7CBBAF29B8B2B500313EC0 /* CocoaXPCService.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4F51D0AD29B8E9AF008B4D32 /* PBXContainerItemProxy */ = {
+		4FF9A7C329BA397600D6F9C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4F7CBB8D29B8B29900313EC0 /* Project object */;
 			proxyType = 1;
@@ -28,17 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-        4F7CBBCF29B8D8C800313EC0 /* Embed XPC Services */ = {
-            isa = PBXCopyFilesBuildPhase;
-            buildActionMask = 2147483647;
-            dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
-            dstSubfolderSpec = 16;
-            files = (
-                4F51D0B229B8E9ED008B4D32 /* CocoaXPCService.xpc in Embed XPC Services */,
-            );
-            name = "Embed XPC Services";
-            runOnlyForDeploymentPostprocessing = 0;
-        };
 		4F7CBBC229B8B2C100313EC0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,6 +36,17 @@
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4FF9A7C529BA397600D6F9C7 /* Embed XPC Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
+			files = (
+				4FF9A7C229BA397600D6F9C7 /* CocoaXPCService.xpc in Embed XPC Services */,
+			);
+			name = "Embed XPC Services";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -66,6 +66,7 @@
 		4F7CBBB829B8B2B500313EC0 /* CocoaXPCService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CocoaXPCService.entitlements; sourceTree = "<group>"; };
 		4F7CBBC429B8B2C100313EC0 /* CocoaXPCHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CocoaXPCHelper; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7CBBC629B8B2C100313EC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FF9A7C629BA3AD300D6F9C7 /* CocoaXPCHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CocoaXPCHelper.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +143,7 @@
 		4F7CBBC529B8B2C100313EC0 /* CocoaXPCHelper */ = {
 			isa = PBXGroup;
 			children = (
+				4FF9A7C629BA3AD300D6F9C7 /* CocoaXPCHelper.entitlements */,
 				4F7CBBC629B8B2C100313EC0 /* main.m */,
 			);
 			path = CocoaXPCHelper;
@@ -164,12 +166,12 @@
 				4F7CBB9129B8B29900313EC0 /* Sources */,
 				4F7CBB9229B8B29900313EC0 /* Frameworks */,
 				4F7CBB9329B8B29900313EC0 /* Resources */,
-				4F7CBBCF29B8D8C800313EC0 /* Embed XPC Services */,
+				4FF9A7C529BA397600D6F9C7 /* Embed XPC Services */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4F51D0AE29B8E9AF008B4D32 /* PBXTargetDependency */,
+				4FF9A7C429BA397600D6F9C7 /* PBXTargetDependency */,
 			);
 			name = CocoaXPC_3;
 			productName = CocoaXPC_3;
@@ -299,10 +301,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4F51D0AE29B8E9AF008B4D32 /* PBXTargetDependency */ = {
+		4FF9A7C429BA397600D6F9C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4F7CBBAE29B8B2B500313EC0 /* CocoaXPCService */;
-			targetProxy = 4F51D0AD29B8E9AF008B4D32 /* PBXContainerItemProxy */;
+			targetProxy = 4FF9A7C329BA397600D6F9C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -368,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -524,9 +526,10 @@
 		4F7CBBC929B8B2C100313EC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CocoaXPCHelper/CocoaXPCHelper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P53D29U9LJ;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.CocoaXPC.Helper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -535,9 +538,10 @@
 		4F7CBBCA29B8B2C100313EC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CocoaXPCHelper/CocoaXPCHelper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P53D29U9LJ;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.CocoaXPC.Helper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
